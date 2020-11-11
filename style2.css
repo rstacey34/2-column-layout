@@ -1,0 +1,30 @@
+
+
+
+body, html {
+    background-color: bisque;
+    color: black;
+}
+.fright{
+    float: right;
+    border-style: solid;
+    border: black;
+    margin: 10px;
+    padding: 10px;
+    background-color: chartreuse;
+
+}
+p.fright:hover{
+    display: block;
+}
+.fleft:hover{
+    float: right;
+}
+.fleft{
+    float: left;
+    border-style: solid;
+    border: black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(83, 83, 175);
+}
