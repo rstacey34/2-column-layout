@@ -9,22 +9,30 @@ body, html {
 
 }
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-background-color: cornflowerblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cornflowerblue;
 
 }
-li a {
-display: block;
-width: 60px;
-color: cornsilk;
-padding: 8px 16px;
-text-decoration: none;
+li {
+    display: inline;
+}
+a {
+    float: left;
+    width: 100px;
+    color: cornsilk;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.active {
+    background-color: darkgreen;
 }
 li a:hover{
     background-color: darkgoldenrod;
-    
+    color: #000000;
+
 }
 #wrap{
     
