@@ -58,7 +58,7 @@ main{
     height:100%;
 
 }
-aside{
+.midcol{
     text-align: center;
     border:solid;
     margin:2%;
@@ -82,7 +82,7 @@ footer{
     background:#cc9;
 }
 @media screen and (max-width: 600px) {
-    .main, .main2, .aside {
+    .main, .main2, .midcol {
         width: 100%;
     }
 }
