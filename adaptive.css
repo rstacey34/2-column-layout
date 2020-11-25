@@ -49,6 +49,7 @@ nav{
     border: solid #d1d1;
 }
 main{
+    float: left;
     text-align: center;
     border:solid;
     margin:2%;
@@ -59,6 +60,7 @@ main{
 
 }
 .midcol{
+    float: none;
     text-align: center;
     border:solid;
     margin:2%;
@@ -68,6 +70,7 @@ main{
     height:100%;
 }
 .main2{
+    float: right;
     text-align: center;
     margin:5px;
     border:solid;

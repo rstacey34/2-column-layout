@@ -1,0 +1,21 @@
+header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(48, 75, 228);
+    font-size: xx-large;
+}
+h2{
+    text-align: center;
+    color: saddlebrown;
+    font-size: x-large;   
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: justify;
+    color: black;
+    font-size: medium;
+}

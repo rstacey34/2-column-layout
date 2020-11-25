@@ -10,6 +10,7 @@ body, html {
 }
 ul {
     list-style-type: none;
+    border-style: outset;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -20,8 +21,8 @@ li {
     display: inline;
 }
 a {
-    float: left;
-    width: 100px;
+    float: none;
+    width: 100%;
     color: cornsilk;
     padding: 8px 16px;
     text-decoration: none;
@@ -34,13 +35,13 @@ li a:hover{
     color: #000000;
 
 }
-#wrap{
+.wrap{
     
     width:100%;
     margin:0 auto;
     background:#99c;
 }
-#wrap2{
+.wrap2{
     display:flex;
     text-align: center;
 }
@@ -73,7 +74,7 @@ aside{
     background:#c9c;
     width: 50%;
 }
-#main2{
+.main2{
     text-align: center;
     margin:5px;
     border:solid;
