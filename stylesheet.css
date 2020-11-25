@@ -7,7 +7,10 @@ body, html {
     color:#000;
     background:#e67411;
     background-image: url(images/curcuit.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 ul {
