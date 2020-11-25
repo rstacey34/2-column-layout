@@ -5,7 +5,9 @@ body, html {
     margin:0;
     padding:0;
     color:#000;
-    background:#a7a09a;
+    background:#e67411;
+    background-image: url(images/curcuit.jpg);
+    background-repeat: repeat;
 
 }
 ul {
